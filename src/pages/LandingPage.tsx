@@ -1,3 +1,4 @@
+import Community from "../components/Community/Community";
 import Header from "../components/Header/Header";
 import Navbar from "../components/Navbar/Navbar";
 import OurClients from "../components/OurClients/OurClients";
@@ -8,6 +9,7 @@ export default function LandingPage() {
       <Navbar/>
       <Header/>
       <OurClients/>
+      <Community/>
     </div>
   )
 }

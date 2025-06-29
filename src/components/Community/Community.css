@@ -1,0 +1,53 @@
+.community-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px;
+}
+.community-text-container{
+    display: flex;
+    flex-direction: column;
+}
+.community-title{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 0!important;
+    margin: auto;
+    color: #4d4d4d
+}
+.community-quote{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 0!important;
+    margin: auto;
+    color: #717171;
+}
+.community-logo-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.community-logo-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 180px;
+}
+.community-card-title{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 0!important;
+    margin: auto;
+    color: #4d4d4d
+}
+.community-card-quote{
+    font-size: 14px;
+    font-weight: normal;
+    margin: auto;
+    color: #717171;
+}
+.community-logo-card img{
+    width: 50px;
+}
