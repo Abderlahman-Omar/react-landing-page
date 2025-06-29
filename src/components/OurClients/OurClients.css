@@ -1,31 +1,55 @@
 .clients-container{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 50px;
 }
 .clients-text-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 .clients-title{
-    font-size: 25px;
-    font-weight: 600;
-    margin: 0;
-    color: #4d4d4d
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0;
+  text-align: center;
+  color: #4d4d4d
 }
 .clients-quote{
-    font-size: 14px;
-    font-weight: normal;
-    margin: 0;
-    color: #717171;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+  text-align: center;
+  color: #717171;
 }
 .clients-logo-section{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.clients-logo-section {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+  
+@media (max-width: 992px) {
+  .clients-logo-section {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .clients-logo-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}  
+.clients-logo-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }

@@ -12,18 +12,24 @@ export default function Community() {
       <div className="community-logo-section">
         <div className="community-logo-card">
           <img src={logo1} alt="" />
-          <p className="community-card-title">Membership Organisations</p>
-          <p className="community-card-quote">Our membership management software provides full automation of membership renewals and payments</p>
+          <div className="card-text-container">
+            <p className="community-card-title">Membership Organisations</p>
+            <p className="community-card-quote">Our membership management software provides full automation of membership renewals and payments</p>
+          </div>
         </div>
         <div className="community-logo-card">
           <img src={logo2} alt="" />
-          <p className="community-card-title">National Associations</p>
-          <p className="community-card-quote">Our membership management software provides full automation of membership renewals and payments</p>
+          <div className="card-text-container">
+            <p className="community-card-title">National Associations</p>
+            <p className="community-card-quote">Our membership management software provides full automation of membership renewals and payments</p>
+          </div>
         </div>
         <div className="community-logo-card">
           <img src={logo3} alt="" />
-          <p className="community-card-title">Clubs And Groups</p>
-          <p className="community-card-quote">Our membership management software provides full automation of membership renewals and payments</p>
+          <div className="card-text-container">
+            <p className="community-card-title">Clubs And Groups</p>
+            <p className="community-card-quote">Our membership management software provides full automation of membership renewals and payments</p>
+          </div>
         </div>
       </div>
     </div>

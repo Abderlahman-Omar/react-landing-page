@@ -1,24 +1,63 @@
 .navbar-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
 }
 .nav-buttons{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 50px;
-    cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  cursor: pointer;
 }
 button{
-    background-color: #4CAF4F;
-    color: white;
-    padding: 15px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    width: 150px;
+  background-color: #4CAF4F;
+  color: white;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 150px;
+}
+.mobile-menu-btn {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #333;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .nav-buttons {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 70%;
+    height: 100vh;
+    background: white;
+    flex-direction: column;
+    justify-content: flex-start; /* Changed from center to start */
+    gap: 30px;
+    transition: right 0.3s ease;
+    z-index: 100;
+    padding-top: 80px;
+    overflow-y: auto; /* Enables vertical scrolling */
+  }
+  
+  .nav-buttons.active {
+    right: 0;
+  }
+  
+  .mobile-menu-btn {
+    display: block;
+    z-index: 101;
+  }
+  
+  button {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
