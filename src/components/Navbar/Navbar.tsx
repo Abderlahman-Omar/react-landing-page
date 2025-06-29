@@ -3,7 +3,7 @@ import Logo from "../../assets/Navbar/Logo.svg"
 export default function Navbar() {
   return (
     <>
-      <div className="container">
+      <div className="navbar-container">
         <img src={Logo} alt="" />
         <div className="nav-buttons">
           <p className="nav-element">Home</p>
