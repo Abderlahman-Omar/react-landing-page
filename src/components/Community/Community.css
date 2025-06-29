@@ -7,26 +7,28 @@
 .community-text-container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-self:center;
+    gap: 10px;
 }
 .community-title{
     font-size: 25px;
     font-weight: 600;
-    line-height: 0!important;
-    margin: auto;
+    margin: 0;
     color: #4d4d4d
 }
 .community-quote{
     font-size: 14px;
     font-weight: normal;
-    line-height: 0!important;
-    margin: auto;
+    margin: 0;
     color: #717171;
+    text-align: center;
 }
 .community-logo-card{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 40px;
+    gap: 10px;
 }
 .community-logo-section{
     display: flex;
@@ -36,18 +38,19 @@
     gap: 180px;
 }
 .community-card-title{
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 600;
-    line-height: 0!important;
-    margin: auto;
-    color: #4d4d4d
+    margin: 0;
+    color: #4d4d4d;
+    text-align: center;
 }
 .community-card-quote{
-    font-size: 14px;
+    font-size: 20px;
     font-weight: normal;
-    margin: auto;
+    margin: 0;
     color: #717171;
+    text-align: center;
 }
 .community-logo-card img{
-    width: 50px;
+    width: 100px;
 }
