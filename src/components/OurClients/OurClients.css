@@ -7,15 +7,21 @@
 .clients-text-container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .clients-title{
     font-size: 25px;
     font-weight: 600;
+    line-height: 0%;
+    margin: auto;
     color: #4d4d4d
 }
 .clients-quote{
     font-size: 14px;
     font-weight: normal;
+    line-height: 0%;
+    margin: auto;
     color: #717171;
 }
 .clients-logo-section{
